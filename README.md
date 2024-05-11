@@ -1,4 +1,4 @@
-- Nome/Título do Projeto: Site TW store
+- Nome/Título do Projeto: TW store
 
 - Lista de Integrantes da Equipe:
   Weslaine Santana
