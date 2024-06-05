@@ -14,7 +14,6 @@
 
 - Estrutura do Projeto:
   .Pagina de Login: Pagina que solicita o login do usuário (E-mail e senha).
-  .Página inicial: Apresenta os destaques, promoções e categorias de produtos.
   .Página de produtos: Exibe detalhes sobre cada item, incluindo imagens, descrição e preço.
   .Carrinho de compras: Permite aos usuários revisar e editar os itens selecionados antes de finalizar a compra.
   .Checkout: Processa o pagamento de forma rápida e segura, oferecendo diferentes métodos de pagamento.
@@ -27,7 +26,6 @@
   JavaScript
   Html
   Css
-  Tailwind
 
 - Características/diferenciais importantes do projeto:
   Interface intuitiva e fácil de usar, projetada para agilizar o processo de compra.
