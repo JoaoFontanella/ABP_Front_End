@@ -1,12 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Header = () => {
+function Header() {
   return (
-    <header className="flex justify-center items-center bg-white p-4">
-      <div className="flex items-center">
-        <img src="/path/to/logo.png" alt="Logo" className="w-12 mr-4" />
-        <h1 className="text-2xl text-purple-600">TW STORE</h1>
-      </div>
+    <header className="bg-gray-800 text-white p-4 flex justify-between items-center">
+      <div className="text-2xl">LOGO</div>
+      <nav className="space-x-4">
+        <Link to="/" className="text-lg hover:underline">NOME_DA_LOJA</Link>
+        {/* Adicione mais links conforme necessário */}
+      </nav>
     </header>
   );
 }
