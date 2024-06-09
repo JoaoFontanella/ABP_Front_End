@@ -37,13 +37,13 @@
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.2s;
+    font-size: 11px;
   }
   
   .card-button:hover {
     background-color: #0056b3;
   }
-  
