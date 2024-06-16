@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import ProductList from './components/ProductList';
 import Cart from './components/Cart';
-import './App.css';
 
 const products = [
   { id: 1, name: 'Produto A', price: 100 },
@@ -9,7 +7,7 @@ const products = [
   { id: 3, name: 'Produto C', price: 300 },
 ];
 
-function App() {
+function CartItens() {
   const [cartItems, setCartItems] = useState([]);
 
   const addToCart = (product) => {
@@ -29,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default CartItens;
