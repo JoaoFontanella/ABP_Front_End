@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import './Login.css';
 import Footer from './components/Footer';
+import { useNavigate, Link } from 'react-router-dom';
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email.trim() && password.trim()) {
+      navigate('/');
     }
   };
 

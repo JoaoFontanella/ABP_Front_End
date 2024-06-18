@@ -78,7 +78,7 @@ button {
 }
 
 button:hover {
-  border-color: #007bff;
+  border-color: green;
   cursor: pointer;
 }
 
