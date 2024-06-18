@@ -15,50 +15,57 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
+  padding: 10px 20px;
   background-color: #f8f8f8;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
 
 .logo img {
-  height: 100px;
+  height: 90px; 
+}
+
+.title {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
 }
 
 .search-bar {
+  position: relative;
   flex-grow: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  max-width: 300px; /* Limita a largura máxima da barra de pesquisa */
 }
 
 .search-bar input {
   padding: 8px 12px;
-  border: 1px solid #ccc;
+  padding-right: 30px; /* Espaço extra para o ícone */
+  border: 1px solid purple;
   border-radius: 4px;
   font-size: 16px;
   width: 100%;
-  max-width: 700px;
 }
 
 .search-bar input:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: green; 
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: green;
+  pointer-events: none; 
 }
 
 main {
-  padding-top: 70px;
-}
-
-button {
-  padding: 8px 12px;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-  font-size: 16px;
-  max-width: 80px;
-}
-button:hover {
-  border-color: #007bff;
-  cursor: pointer;
+  padding-top: 120px;
 }
 
 button#cart {

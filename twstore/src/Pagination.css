@@ -1,0 +1,29 @@
+/* /src/Pagination.css */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px; /* Aumenta a margem inferior para criar espaço extra */
+  }
+  
+  .pagination-button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid purple;
+    background-color: #42c50e;
+    color: black; /* Adiciona cor ao texto */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 8px;
+  }
+  
+  .pagination-button.active {
+    background-color: green;
+    color: #fff;
+    border-color: purple;
+  }
+  
+  .pagination-button:hover:not(.active) {
+    background-color: #36a300; /* Ajusta a cor de hover para um contraste melhor */
+    color: white; /* Ajusta a cor do texto ao passar o mouse */
+  }
+  
