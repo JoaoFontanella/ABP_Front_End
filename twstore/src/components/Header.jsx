@@ -7,7 +7,6 @@ const Header = () => {
       <div className="logo">
         <img src="https://png.pngtree.com/png-clipart/20220830/ourmid/pngtree-drippy-cartoon-png-image_6130929.png" alt="Logo" /> {/* Substitua "logo.png" pelo caminho da sua imagem */}
       </div>
-      <h1 className="title">TW STORE</h1>
       <div className="search-bar">
         <input type="text" placeholder="Search..." />
         <svg
