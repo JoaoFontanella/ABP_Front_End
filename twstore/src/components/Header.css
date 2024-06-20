@@ -13,16 +13,15 @@ body {
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px 20px;
   background-color: #f8f8f8;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
 
 .logo img {
-  height: 90px; 
+  height: 100px; 
 }
 
 .title {
@@ -37,17 +36,18 @@ body {
   position: relative;
   flex-grow: 1;
   display: flex;
-  justify-content: flex-end;
-  max-width: 300px; /* Limita a largura máxima da barra de pesquisa */
+  justify-content: center;
+  margin: 0 20px
 }
 
 .search-bar input {
   padding: 8px 12px;
-  padding-right: 30px; /* Espaço extra para o ícone */
+  padding-right: 40px;
   border: 1px solid purple;
   border-radius: 4px;
   font-size: 16px;
   width: 100%;
+  max-width: 600px; 
 }
 
 .search-bar input:focus {
@@ -57,7 +57,7 @@ body {
 
 .search-icon {
   position: absolute;
-  right: 10px;
+  right: 505px; 
   top: 50%;
   transform: translateY(-50%);
   color: green;
@@ -68,12 +68,21 @@ main {
   padding-top: 120px;
 }
 
-button#cart {
-  padding: 8px 10px;
+button {
+  padding: 8px 12px;
+  border: 1px solid purple;
+  border-radius: 4px;
   font-size: 16px;
+  max-width: 80px;
+  color: green; 
 }
 
-button#login {
-  padding: 8px 10px;
+button:hover {
+  border-color: green;
+  cursor: pointer;
+}
+
+button#cart, button#login {
+  padding: 8px 20px;
   font-size: 16px;
 }
