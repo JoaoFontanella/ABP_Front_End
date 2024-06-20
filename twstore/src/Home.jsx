@@ -13,7 +13,7 @@ const products = [
   { image: 'https://images.tcdn.com.br/img/img_prod/1286793/camiseta_dgk_stay_low_manga_longa_preto_917_1_eb755765c02d3bd75e25d9265eb1e0f8.jpg', title: 'Camiseta DGK Stay Low Manga Longa', description: 'R$ 229,90' },
   { image: 'https://images.tcdn.com.br/img/img_prod/560775/camiseta_dgk_mystical_preto_importado_17985_1_b0efd95a1195fe9c4175cf906b6cc32b.jpg', title: 'Camiseta Dgk Mystical Preto', description: 'R$ 239,90' },
   { image: 'https://global.cdn.magazord.com.br/pontocerto/img/2024/02/produto/8139/cinto-vans-deppster-ii-web-belt-masculino-em-lona-quadriculado-hyped-91.jpg', title: 'Cinto Deppster II Web Belt Vans ', description: 'R$ 159,99' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 8', description: 'Descrição do produto 8' },
+  { image: 'https://cdn.awsli.com.br/2500x2500/749/749210/produto/143516055/499bf75234.jpg', title: 'Meia Grizzly Cano Alto Branca', description: 'R$ 59,90' },
   { image: 'https://via.placeholder.com/300', title: 'Produto 9', description: 'Descrição do produto 9' },
   { image: 'https://via.placeholder.com/300', title: 'Produto 10', description: 'Descrição do produto 10' },
   { image: 'https://via.placeholder.com/300', title: 'Produto 11', description: 'Descrição do produto 11' },
