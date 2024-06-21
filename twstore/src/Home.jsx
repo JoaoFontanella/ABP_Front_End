@@ -14,19 +14,19 @@ const products = [
   { image: 'https://images.tcdn.com.br/img/img_prod/560775/camiseta_dgk_mystical_preto_importado_17985_1_b0efd95a1195fe9c4175cf906b6cc32b.jpg', title: 'Camiseta Dgk Mystical Preto', description: 'R$ 239,90' },
   { image: 'https://global.cdn.magazord.com.br/pontocerto/img/2024/02/produto/8139/cinto-vans-deppster-ii-web-belt-masculino-em-lona-quadriculado-hyped-91.jpg', title: 'Cinto Deppster II Web Belt Vans ', description: 'R$ 159,99' },
   { image: 'https://cdn.awsli.com.br/2500x2500/749/749210/produto/143516055/499bf75234.jpg', title: 'Meia Grizzly Cano Alto Branca', description: 'R$ 59,90' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 9', description: 'Descrição do produto 9' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 10', description: 'Descrição do produto 10' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 11', description: 'Descrição do produto 11' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 12', description: 'Descrição do produto 12' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 13', description: 'Descrição do produto 13' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 14', description: 'Descrição do produto 14' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 15', description: 'Descrição do produto 15' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 16', description: 'Descrição do produto 16' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 17', description: 'Descrição do produto 17' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 18', description: 'Descrição do produto 18' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 19', description: 'Descrição do produto 19' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 20', description: 'Descrição do produto 20' },
-  { image: 'https://via.placeholder.com/300', title: 'Produto 21', description: 'Descrição do produto 21' },
+  { image: 'https://imgcentauro-a.akamaihd.net/1366x1366/M14DPU02.jpg', title: 'Jaqueta Volcom Madward Imp Preto', description: 'R$ 845,40' },
+  { image: 'https://images-americanas.b2w.io/produtos/7495647671/imagens/moletom-fechado-lost-22413608-sheep-on-fire-preto/7495647671_1_large.jpg', title: 'Moletom Lost Sheep On Fire Preto', description: 'R$ 476,90' },
+  { image: 'https://princeofstreets.fbitsstatic.net/img/p/tenis-ous-bets-preto-reflect-imperial-155374/355352.jpg?w=550&h=550&v=202406101908&qs=ignore', title: 'Tênis Öus Bets Preto/Refletivo/Laranja', description: 'R$ 559,90' },
+  { image: 'https://acdn.mitiendanube.com/stores/001/115/376/products/imagem-do-whatsapp-de-2024-06-19-as-14-03-03_2f0f83e1-940f44ffa86a856bed17188219511074-480-0.jpg', title: 'Camiseta Creature Stubbs Cat Preto', description: 'R$ 189,90' },
+  { image: 'https://s3.flize.host/onesixteam/camisetahocksboxbrancoh23563-121107.jpg', title: 'Camiseta Hocks Box Branco', description: 'R$ 129,90' },
+  { image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC159T4EbRqjRVpO2pG25yHpx8c1KG6PfElw&s', title: 'Moletom Fila Letter Ii Preto', description: 'R$ 299,90' },
+  { image: 'https://images.tcdn.com.br/img/img_prod/560775/180_camiseta_manga_longa_santa_cruz_dressen_roses_dot_preto_14979_1_26a41522f1931bdbae817659e5404cbf.jpg', title: 'Camiseta Santa Cruz Rob Evolution Preto', description: 'R$ 199,90' },
+  { image: 'https://wats.company/wp-content/uploads/camisa-xadrez-wats-off-white.jpg', title: 'Camisa Wats Xadrez Flanela Marrom', description: 'R$ 269,90' },
+  { image: 'https://studio98skateshop.com.br/wp-content/uploads/2022/04/15123184343_bags-wats24.jpg', title: 'Shoulder Bag Wats Pocket Preto', description: 'R$ 142,40' },
+  { image: 'https://imgcentauro-a.akamaihd.net/1300x1300/M147AP09.jpg', title: 'Gorro Hurley Poise Roxo', description: 'R$ 151,90' },
+  { image: 'https://takeoverskateshop.com.br/wp-content/uploads/2022/11/Vans-Wayvee-Preto-600x600.jpg', title: 'Tênis Vans Wayvee Preto', description: 'R$ 699,90' },
+  { image: 'https://www.lojahip.com.br/images/Produtos/Site/Jaqueta-Vans-Varsity-Club-Bomber-Preto.jpg', title: 'Jaqueta Vans Varsity Club Bomber Feminino Preto/Branco', description: 'R$ 829,90' },
+  { image: 'https://s3.flize.host/onesixteam/tnisteslacoilwhitepurplemesc1901-20-616348.jpg', title: 'Tênis Tesla Coil White Purple Mesclado Branco/Roxo', description: 'R$ 303,90' },
   { image: 'https://via.placeholder.com/300', title: 'Produto 22', description: 'Descrição do produto 22' },
   { image: 'https://via.placeholder.com/300', title: 'Produto 23', description: 'Descrição do produto 23' },
   { image: 'https://via.placeholder.com/300', title: 'Produto 24', description: 'Descrição do produto 24' },
@@ -58,7 +58,7 @@ const products = [
 
 const Home = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 32;
+  const itemsPerPage = 24;
   const totalPages = Math.ceil(products.length / itemsPerPage);
 
   const handlePageChange = (page) => {
