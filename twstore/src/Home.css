@@ -7,12 +7,12 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  padding-top: 120px; /* Ajuste este valor conforme necessário para criar espaço entre o Header e os cards */
+  padding-top: 120px; 
 }
 
 .card {
-  flex: 1 0 21%; /* Flex-grow: 1, Flex-shrink: 0, Flex-basis: 21% */
+  flex: 1 0 21%; 
   margin: 10px;
-  max-width: 300px; /* Limita a largura máxima do card */
-  box-sizing: border-box; /* Inclui padding e border no cálculo do tamanho do card */
+  max-width: 300px; 
+  box-sizing: border-box; 
 }

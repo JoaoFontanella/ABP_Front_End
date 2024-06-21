@@ -26,24 +26,28 @@
 .card-title {
   margin: 10px 0;
   font-size: 1.25rem;
+  text-align: left;
 }
 
 .card-description {
   margin: 10px 0;
-  font-size: 1rem;
+  font-size: 1.30rem;
+  text-align: left;
+  font-weight: bold;
+  color: purple;
 }
 
 .card-button {
-  background-color: #007bff;
+  background-color: green;
   color: white;
   border: none;
   padding: 10px;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.2s;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .card-button:hover {
-  background-color: #0056b3;
+  background-color: #60c31e;
 }

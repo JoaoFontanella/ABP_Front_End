@@ -19,7 +19,7 @@ const products = [
   { image: 'https://princeofstreets.fbitsstatic.net/img/p/tenis-ous-bets-preto-reflect-imperial-155374/355352.jpg?w=550&h=550&v=202406101908&qs=ignore', title: 'Tênis Öus Bets Preto/Refletivo/Laranja', description: 'R$ 559,90' },
   { image: 'https://acdn.mitiendanube.com/stores/001/115/376/products/imagem-do-whatsapp-de-2024-06-19-as-14-03-03_2f0f83e1-940f44ffa86a856bed17188219511074-480-0.jpg', title: 'Camiseta Creature Stubbs Cat Preto', description: 'R$ 189,90' },
   { image: 'https://s3.flize.host/onesixteam/camisetahocksboxbrancoh23563-121107.jpg', title: 'Camiseta Hocks Box Branco', description: 'R$ 129,90' },
-  { image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC159T4EbRqjRVpO2pG25yHpx8c1KG6PfElw&s', title: 'Moletom Fila Letter Ii Preto', description: 'R$ 299,90' },
+  { image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC159T4EbRqjRVpO2pG25yHpx8c1KG6PfElw&s', title: 'Moletom Com Capuz Fila Letter Ii Preto', description: 'R$ 299,90' },
   { image: 'https://images.tcdn.com.br/img/img_prod/560775/180_camiseta_manga_longa_santa_cruz_dressen_roses_dot_preto_14979_1_26a41522f1931bdbae817659e5404cbf.jpg', title: 'Camiseta Santa Cruz Rob Evolution Preto', description: 'R$ 199,90' },
   { image: 'https://wats.company/wp-content/uploads/camisa-xadrez-wats-off-white.jpg', title: 'Camisa Wats Xadrez Flanela Marrom', description: 'R$ 269,90' },
   { image: 'https://studio98skateshop.com.br/wp-content/uploads/2022/04/15123184343_bags-wats24.jpg', title: 'Shoulder Bag Wats Pocket Preto', description: 'R$ 142,40' },
@@ -80,7 +80,7 @@ const Home = () => {
             image={product.image}
             title={product.title}
             description={product.description}
-            buttonLabel="Adicionar ao carrinho"
+            buttonLabel="Comprar"
           />
         ))}
       </main>
