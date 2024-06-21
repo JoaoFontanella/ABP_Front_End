@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Login.css';
 import Footer from './components/Footer';
 import { useNavigate, Link } from 'react-router-dom';
+import Header from './components/Header';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -17,6 +18,7 @@ function Login() {
 
   return (
     <div className="name-input-container">
+      <Header/>
       <form onSubmit={handleSubmit}>
         <h2>Login</h2>
         <input
@@ -36,6 +38,9 @@ function Login() {
         <button id="next" type="submit">
           Continuar
         </button>
+        <Link to="/Createaccount" id="createaccount">
+          Criar uma conta
+        </Link>
       </form>
       <Footer />
     </div>

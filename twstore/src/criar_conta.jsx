@@ -12,7 +12,7 @@ function Criar_conta() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email.trim() && password.trim() && name.trim()) {
-      navigate('/Login');
+      navigate('/');
     }
   };
 
