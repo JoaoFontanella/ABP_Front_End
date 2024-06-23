@@ -7,17 +7,20 @@
 }
 
 form {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 2em;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 300px;
+  height: 450px;
   text-align: center;
+  zoom: 130%;
 }
 
 h2 {
   margin-bottom: 1em;
-  color: #333;
+  color: purple;
+  color:green;
 }
 
 input#password {
@@ -27,6 +30,13 @@ input#password {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+  border: 1px solid purple;
+  
+}
+
+input#password:focus{
+  outline: none;
+  border-color: green;
 }
 
 input#email {
@@ -36,18 +46,20 @@ input#email {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+  border: 1px solid purple;
 }
 
-input:focus {
-  border-color: #007bff;
+input#email:focus{
   outline: none;
+  border-color: green;
 }
+
 
 button#next {
   width: 100%;
   padding: 10px;
   margin-top: 15px;
-  background-color: #007bff;
+  background-color: green;
   border: none;
   border-radius: 5px;
   color: white;
@@ -57,7 +69,7 @@ button#next {
 }
 
 button#next:hover {
-  background-color: #0056b3;
+  background-color: #60c31e;
 }
 
 a#createaccount {
@@ -71,7 +83,7 @@ button#create {
   width: 100%;
   padding: 10px;
   margin-top: 15px;
-  background-color: #007bff;
+  background-color: green;
   border: none;
   border-radius: 5px;
   color: white;
@@ -81,7 +93,7 @@ button#create {
 }
 
 button#create:hover {
-  background-color: #0056b3;
+  background-color: #60c31e;
 }
 
 
@@ -92,3 +104,10 @@ input#name {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+  border: 1px solid purple;
+}
+
+input#name:focus{
+  outline: none;
+  border-color: green;
+}
