@@ -4,6 +4,7 @@
   align-items: center;
   height: 100vh;
   background-color: #f2f2f2;
+  padding-top: 60px; /* Adiciona espaçamento superior para evitar que a logo seja tampada pelo header */
 }
 
 form {
@@ -12,48 +13,40 @@ form {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 300px;
-  height: 450px;
+  height: auto; /* Ajuste automático da altura conforme o conteúdo */
   text-align: center;
   zoom: 130%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-logo {
+  width: 150px; 
+  margin-bottom: 16px;
+  margin-top: 50px;
 }
 
 h2 {
   margin-bottom: 1em;
-  color: purple;
-  color:green;
+  color: green;
 }
 
+input#email,
 input#password {
   width: 100%;
   padding: 0.8em;
   margin: 0.5em 0;
-  border: 1px solid #ccc;
+  border: 1px solid purple;
   border-radius: 5px;
   box-sizing: border-box;
-  border: 1px solid purple;
-  
 }
 
-input#password:focus{
+input#email:focus,
+input#password:focus {
   outline: none;
   border-color: green;
 }
-
-input#email {
-  width: 100%;
-  padding: 0.8em;
-  margin: 0.5em 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-  border: 1px solid purple;
-}
-
-input#email:focus{
-  outline: none;
-  border-color: green;
-}
-
 
 button#next {
   width: 100%;
@@ -76,38 +69,27 @@ a#createaccount {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 18px;
+  margin-top: 8px;
+  margin-bottom: 20pX;
   font-size: 13px;
-}
-button#create {
-  width: 100%;
-  padding: 10px;
-  margin-top: 15px;
-  background-color: green;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  font-size: 13px;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: green;
 }
 
-button#create:hover {
-  background-color: #60c31e;
+a#createaccount:hover {
+  text-decoration: underline;
 }
-
 
 input#name {
   width: 100%;
   padding: 0.8em;
   margin: 0.5em 0;
-  border: 1px solid #ccc;
+  border: 1px solid purple;
   border-radius: 5px;
   box-sizing: border-box;
-  border: 1px solid purple;
 }
 
-input#name:focus{
+input#name:focus {
   outline: none;
   border-color: green;
 }

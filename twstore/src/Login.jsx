@@ -20,6 +20,7 @@ function Login() {
     <div className="name-input-container">
       <Header/>
       <form onSubmit={handleSubmit}>
+        <img src="https://png.pngtree.com/png-clipart/20220830/ourmid/pngtree-drippy-cartoon-png-image_6130929.png" alt="Logo" className="login-logo" /> 
         <h2>Login</h2>
         <input
           id="email"
