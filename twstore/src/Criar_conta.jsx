@@ -20,6 +20,7 @@ function Criar_conta() {
     <div className="name-input-container">
       <Header/>
       <form onSubmit={handleSubmit}>
+      <img src="https://png.pngtree.com/png-clipart/20220830/ourmid/pngtree-drippy-cartoon-png-image_6130929.png" alt="Logo" className="login-logo" />
         <h2>Criar Conta</h2>
         <input
           id="name"

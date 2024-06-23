@@ -32,16 +32,18 @@ h2 {
   color: green;
 }
 
+input#name,
 input#email,
 input#password {
   width: 100%;
-  padding: 0.8em;
+  padding: 7px;
   margin: 0.5em 0;
   border: 1px solid purple;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
+input#name:focus,
 input#email:focus,
 input#password:focus {
   outline: none;
@@ -50,7 +52,7 @@ input#password:focus {
 
 button#next {
   width: 100%;
-  padding: 10px;
+  padding: 8px 8px;
   margin-top: 15px;
   background-color: green;
   border: none;
@@ -65,31 +67,35 @@ button#next:hover {
   background-color: #60c31e;
 }
 
+button#create {
+  width: 100%;
+  padding: 8px 8px;
+  margin-top: 15px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button#create:hover {
+  background-color: #60c31e;
+}
+
 a#createaccount {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 8px;
+  margin-top: 25px;
   margin-bottom: 20pX;
   font-size: 13px;
   text-decoration: none;
   color: green;
+
 }
 
 a#createaccount:hover {
   text-decoration: underline;
-}
-
-input#name {
-  width: 100%;
-  padding: 0.8em;
-  margin: 0.5em 0;
-  border: 1px solid purple;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-input#name:focus {
-  outline: none;
-  border-color: green;
 }
