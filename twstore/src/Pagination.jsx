@@ -1,4 +1,3 @@
-// /src/Pagination.jsx
 import React from 'react';
 import './Pagination.css';
 
