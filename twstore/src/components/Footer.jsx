@@ -46,7 +46,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="contact">
-        <p>Telefone: (123) 456-7890</p>
+        <p>Telefone: (12) 3456-7890</p>
       </div>
     </footer>
   );
