@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Card from './components/Card';
 import Pagination from './Pagination';
-import './Home.css';
+import './styles/Home.css';
 import { items } from './components/Products.jsx';
 
 const Home = () => {

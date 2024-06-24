@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Checkout.css';
+import './styles/Checkout.css';
 import Header from './components/Header';
 
 function Checkout() {
