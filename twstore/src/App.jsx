@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
-import Checkout from './Chekout';
+import Checkout from './Checkout';
 import Login from './Login';
 import Criar_conta from './Criar_conta';
 import Cart from './Cart';

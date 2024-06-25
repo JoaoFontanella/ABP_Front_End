@@ -4,18 +4,18 @@ import Footer from './components/Footer';
 import Card from './components/Card';
 import Pagination from './Pagination';
 import './styles/Home.css';
-import { items } from './components/Products.jsx';
+import { products } from './components/Products.jsx';
 
 const Home = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 24;
-  const totalPages = Math.ceil(items.length / itemsPerPage);
+  const totalPages = Math.ceil(products.length / itemsPerPage);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
 
-  const currentItems = items.slice(
+  const currentItems = products.slice(
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage
   );
