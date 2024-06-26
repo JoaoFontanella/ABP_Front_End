@@ -6,13 +6,14 @@
 }
 
 .cart h2 {
-  font-size: 24px;
-  color: #333;
+  font-size: 30px;
+  color: green;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .cart p {
-  color: #555;
+  color: purple;
   font-size: 18px;
 }
 
@@ -24,14 +25,19 @@
 }
 
 .cart ul li {
+  display: flex;
+  align-items: center; 
   margin-bottom: 10px;
   padding: 10px;
   border: 1px solid #ddd;
   background-color: #fff;
   border-radius: 4px;
+  color: purple;
+  font-weight: bold
 }
 
 .cart ul li button {
+  margin-left: auto;
   padding: 3px 3px;
   background-color: rgb(255, 255, 255);
   border: none;
@@ -42,13 +48,14 @@
 .cart ul li button:hover {
   transform: scale(1.1);
   transition: all 0.5s;
-  color: red;
+  color: purple;
 }
 
-.cart p.total {
-  font-size: 20px;
+p#total {
+  font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
+  color: green;
 }
 
 button#clean,
@@ -63,6 +70,11 @@ button#chk {
   font-size: 13px;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+button#clean:hover,
+button#chk:hover {
+  background-color: #60c31e;
 }
 
 .cart-buttons {

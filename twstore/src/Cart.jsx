@@ -18,18 +18,18 @@ const Cart = () => {
       <Header />
       <h2>Carrinho de Compras</h2>
       {cartItems.length === 0 ? (
-        <p>O carrinho está vazio.</p>
+        <p>Carrinho vazio.</p>
       ) : (
         <>
           <ul>
             {cartItems.map((item) => (
               <li key={item.id}>
-                {item.title} - ${item.price} - Quantidade: {item.quantity}
+                {item.title} - R${item.price.toFixed(2)} <br></br> Qtd: {item.quantity}
                 <button onClick={() => removeFromCart(item.id)}>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="20"
+                    height="20"
                     fill="currentColor"
                     class="bi bi-trash"
                     viewBox="0 0 16 16"
@@ -41,7 +41,7 @@ const Cart = () => {
               </li>
             ))}
           </ul>
-          <p>Total: ${totalPrice.toFixed(2)}</p>
+          <p id='total'>Total: R${totalPrice.toFixed(2)}</p>
           <div class="cart-buttons">
             <button id="clean" onClick={clearCart}>
               Limpar

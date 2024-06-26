@@ -48,11 +48,11 @@ function Checkout() {
         <ul>
           {cartItems.map((item) => (
             <li key={item.id}>
-              {item.name} - Quantidade: {item.quantity}
+              {item.title} <br></br>- Qtd: {item.quantity}
             </li>
           ))}
         </ul>
-        <p>Total: R$ {calculateTotalPrice()}</p>
+        <p id='total'>Total: R$ {calculateTotalPrice()}</p>
       </div>
 
       <div className="payment-section">
@@ -79,7 +79,6 @@ function Checkout() {
             </svg>
             Cartão
           </label>
-          <br />
           <label>
             <input
               id="paypal"
@@ -112,7 +111,6 @@ function Checkout() {
                   required
                 />
               </label>
-              <br />
               <label>
                 Data de Expiração:
                 <input
@@ -122,7 +120,6 @@ function Checkout() {
                   required
                 />
               </label>
-              <br />
               <label>
                 CVV:
                 <input
@@ -147,7 +144,6 @@ function Checkout() {
                   required
                 />
               </label>
-              <br />
               <label>
                 Nome Completo:
                 <input
