@@ -24,7 +24,7 @@ function Checkout() {
     cartItems.forEach((item) => {
       totalPrice += item.price * item.quantity;
     });
-    return totalPrice.toFixed(2); // Arredonda para 2 casas decimais
+    return totalPrice.toFixed(2);
   };
 
   const handleSubmit = (event) => {
@@ -36,7 +36,7 @@ function Checkout() {
       cvv,
       cpf,
       fullName,
-      selectedProducts: cartItems, // Incluindo os itens selecionados no formulário
+      selectedProducts: cartItems,
     });
   };
 
