@@ -28,6 +28,7 @@ function Login() {
           placeholder="Digite seu Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          required
         />
         <input
           id="password"
@@ -35,6 +36,7 @@ function Login() {
           placeholder="Digite sua Senha"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          required
         />
         <button id="next" type="submit">
           Continuar

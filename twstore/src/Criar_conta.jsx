@@ -28,6 +28,7 @@ function Criar_conta() {
           placeholder="Digite seu Nome"
           value={name}
           onChange={(e) => setName(e.target.value)}
+          required
         />
         <input
           id="email"
@@ -35,6 +36,7 @@ function Criar_conta() {
           placeholder="Digite seu Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          required
         />
         <input
           id="password"
@@ -42,6 +44,7 @@ function Criar_conta() {
           placeholder="Digite sua Senha"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          required
         />
         <button id="create" type="submit">
           Criar
